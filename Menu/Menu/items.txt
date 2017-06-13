@@ -1,0 +1,6 @@
+Item1: $2
+Item2: $10
+Item3: $15,50
+Item4: $1
+Item5: $3,45
+Item6: $12
