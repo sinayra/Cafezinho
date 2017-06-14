@@ -5,7 +5,7 @@ using System.Text;
 using System.Threading.Tasks;
 
 namespace Menu {
-    class Item {
+    public class Item {
         public string Name { get; private set; }
         public double Price { get; private set; }
 
@@ -15,6 +15,10 @@ namespace Menu {
 
             content = content[1].Split('$');
             Price = double.Parse(content[1]);
+        }
+
+        public override string ToString() {
+            return $"{Name} - R$ {Price}";
         }
     }
 }
